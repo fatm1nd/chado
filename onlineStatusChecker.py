@@ -67,4 +67,3 @@ def handlerStart():
         # Run the client until it's disconnected
         client.run_until_disconnected()
 
-handlerStart()
