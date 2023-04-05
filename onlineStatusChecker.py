@@ -42,7 +42,8 @@ def getStatus(name, timezone='Europe/Moscow'):
     with client:
         return client.loop.run_until_complete(_getStatus(name, timezone='Europe/Moscow'))
     
-def stalkTheUser(name):
+def stalkTheUsers():
+    STALKER = 1
     client.start()
     with client:
         return client.loop.run_forever()
@@ -77,6 +78,7 @@ async def echo(event):
 
 # Start the client
 def handlerStart():
+    BOTHAVIER = 1
     with client:
         # Run the client until it's disconnected
         client.run_until_disconnected()
