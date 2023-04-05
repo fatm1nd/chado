@@ -7,7 +7,8 @@ client = telethon.TelegramClient(
 
 # You can use your own number. Script does not send any messages. Only check online if its possible
 
-
+STALKER = 0
+BOTHAVIER = 0
 
 
 async def main():
@@ -41,11 +42,24 @@ def getStatus(name, timezone='Europe/Moscow'):
     with client:
         return client.loop.run_until_complete(_getStatus(name, timezone='Europe/Moscow'))
     
+def stalkTheUser(name):
+    client.start()
+    with client:
+        return client.loop.run_forever()
 
+@client.on(telethon.events.UserUpdate)
+async def handler(event):
+    if not STALKER:
+        return
+    user = await client.get_entity(event.original_update.user_id)
+    print(user.username, end=" : ")
+    print(event.original_update.status)
 
 
 @client.on(telethon.events.NewMessage)
 async def echo(event):
+    if not BOTHAVIER:
+        return
     # Check if the message was sent by a user (not a bot)
         # Send back the same message to the user
     info = await client.get_entity(event.message.text)
@@ -67,3 +81,4 @@ def handlerStart():
         # Run the client until it's disconnected
         client.run_until_disconnected()
 
+# handlerStart()
