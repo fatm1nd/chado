@@ -10,10 +10,10 @@ from bs4 import BeautifulSoup
 import re
 
 
-response = requests.get("https://t.me/s/sharemed",
-                        headers={"Accept": 'application/json'})
+# response = requests.get("https://t.me/s/sharemed",
+#                         headers={"Accept": 'application/json'})
 
-open("sharedme.txt", "w").write(response.content.decode('utf-8'))
+# open("sharedme.txt", "w").write(response.content.decode('utf-8'))
 
 
 # main = objectify.fromstring(response.content[1:])
