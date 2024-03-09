@@ -1,0 +1,84 @@
+<mxfile host="app.diagrams.net" modified="2024-03-09T19:31:39.584Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="zMyv75aySpwvgZzP9dnF" version="22.1.18" type="device">
+  <diagram name="Страница — 1" id="HIOnIqVQ-w9DhEalxw-Y">
+    <mxGraphModel dx="1961" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9RWlbwgeMoNHrOSxvTAq-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9RWlbwgeMoNHrOSxvTAq-1" target="9RWlbwgeMoNHrOSxvTAq-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9RWlbwgeMoNHrOSxvTAq-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="9RWlbwgeMoNHrOSxvTAq-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9RWlbwgeMoNHrOSxvTAq-1" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;PNWRT&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="360" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9RWlbwgeMoNHrOSxvTAq-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Dashboard&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9RWlbwgeMoNHrOSxvTAq-5" value="&lt;h1&gt;Entertainment&lt;/h1&gt;&lt;div&gt;Модуль, который сочетает в себе все для развлечения и досуга. В него входят кино, новости, книги и музыка. Он включает в себя хранение и фиксацию просмотренного/прочтенного, а так же наборы разных инструментов для потребления и созидания&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="45" width="190" height="183" as="geometry" />
+        </mxCell>
+        <mxCell id="9RWlbwgeMoNHrOSxvTAq-6" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-120" y="320" as="sourcePoint" />
+            <mxPoint x="370" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9RWlbwgeMoNHrOSxvTAq-7" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="30" as="sourcePoint" />
+            <mxPoint x="370" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9RWlbwgeMoNHrOSxvTAq-9" value="&lt;b&gt;Theater&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;локальный стриминг&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="45" width="120" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="9RWlbwgeMoNHrOSxvTAq-10" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;ДПК&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Дневник Потребления Контента&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="115" width="120" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="9RWlbwgeMoNHrOSxvTAq-11" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;Friends&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;База данных друзей и знакомых&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="185" width="120" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="9RWlbwgeMoNHrOSxvTAq-12" value="&lt;b&gt;Videocreating&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Платформа для реализации видео контента&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="45" width="120" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="9RWlbwgeMoNHrOSxvTAq-13" value="&lt;b&gt;Table Games&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;База данных&amp;nbsp; настольных игр&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="115" width="120" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="9RWlbwgeMoNHrOSxvTAq-14" value="&lt;b&gt;Steam&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Интерфейс для взаимодействия со стимом&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="185" width="120" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="9RWlbwgeMoNHrOSxvTAq-16" value="&lt;h1&gt;Banks&lt;/h1&gt;&lt;div&gt;Модуль, который содержит в себе интерфейсы для взаимодействия с банками. Этот модуль содержит в себе результаты реверс-инженеринга мобильных приложений банков. Отдельный модуль, так как человек использует несколько банков, потому для каждого нужен отдельный под-модуль&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="515" width="190" height="235" as="geometry" />
+        </mxCell>
+        <mxCell id="9RWlbwgeMoNHrOSxvTAq-17" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-110" y="500" as="sourcePoint" />
+            <mxPoint x="380" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9RWlbwgeMoNHrOSxvTAq-18" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="500" as="sourcePoint" />
+            <mxPoint x="380" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9RWlbwgeMoNHrOSxvTAq-25" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Тинькофф&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="515" width="120" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="9RWlbwgeMoNHrOSxvTAq-27" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Сбербанк&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="515" width="120" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="9RWlbwgeMoNHrOSxvTAq-28" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Steam Balance&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="590" width="120" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="9RWlbwgeMoNHrOSxvTAq-29" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Steam Balance&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="590" width="120" height="63" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
